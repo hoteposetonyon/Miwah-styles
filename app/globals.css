@@ -118,3 +118,12 @@
 .client-proof span{font-size:11px;color:var(--muted);letter-spacing:.04em}
 .client-proof>p{grid-column:1/-1;margin:0;padding-top:18px;border-top:1px solid #eee4e9;color:var(--muted);font-size:12px;line-height:1.7}
 @media(max-width:760px){.gallery-feature,.testimonial-layout{grid-template-columns:1fr}.gallery-note{min-height:230px}.client-proof{gap:18px}}
+
+
+/* Lifestyle package inclusions */
+.price-card ul{margin:10px 0 12px;padding-left:18px;color:var(--muted);font-size:12px;line-height:1.9}
+.price-card li{padding-left:3px;margin:3px 0}
+.featured-price ul{color:#d4cbd0}
+.price-card .text-link{margin-top:auto;padding-top:8px}
+.price-card strong{font-size:18px}
+@media(max-width:760px){.pricing-grid{grid-template-columns:1fr}.price-card{min-height:0;padding:28px 24px}.featured-price{transform:none}.price-card p{min-height:0}}
