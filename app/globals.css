@@ -86,3 +86,15 @@
 .site-footer a{color:#fff;text-decoration:none}
 @media(max-width:800px){.service-landing-hero{grid-template-columns:1fr;padding-top:120px;gap:35px}.service-landing-image{min-height:360px;height:105vw;max-height:520px;max-width:560px;width:100%;margin:auto}.service-detail{grid-template-columns:1fr;padding-top:70px;padding-bottom:70px}}
 @media(max-width:600px){.service-landing-copy h1{font-size:clamp(3rem,14vw,4.5rem)}.service-detail-list{padding:24px 20px}.related-service-links{grid-template-columns:1fr}.site-footer{flex-wrap:wrap}.service-cta{padding:72px 22px}}
+
+
+/* Clearer navigation and structured skills section */
+.site-header nav{gap:clamp(10px,1.65vw,23px);font-size:12px}
+.skills{background:#fff}
+.skills-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.skills-grid article{padding:25px 19px 28px;background:var(--light);border-top:3px solid var(--pink);min-height:190px}
+.skills-grid article>span{font-size:10px;letter-spacing:.16em;color:var(--fuchsia);font-weight:800}
+.skills-grid h3{font:500 22px var(--display);line-height:1.15;margin:25px 0 9px}
+.skills-grid p{font-size:12px;line-height:1.65;color:var(--muted);margin:0}
+@media(max-width:1050px){.site-header nav{gap:10px;font-size:10px}.site-header .button-small{font-size:10px;padding:9px 11px}.skills-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:650px){.site-header nav{display:none}.skills-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.skills-grid article{padding:22px 16px;min-height:175px}.skills-grid h3{font-size:20px}}
