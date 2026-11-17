@@ -127,3 +127,10 @@
 .price-card .text-link{margin-top:auto;padding-top:8px}
 .price-card strong{font-size:18px}
 @media(max-width:760px){.pricing-grid{grid-template-columns:1fr}.price-card{min-height:0;padding:28px 24px}.featured-price{transform:none}.price-card p{min-height:0}}
+
+
+/* Service-page FAQ hierarchy */
+.service-faqs{padding-top:76px;padding-bottom:76px}
+.service-faqs h2{font-size:clamp(2rem,4vw,3.4rem);line-height:1.08;letter-spacing:-.04em;margin:12px 0 28px}
+.service-faq-list{max-width:850px;margin-bottom:25px}
+.service-faqs>.text-link{display:inline-block;margin-top:8px}
